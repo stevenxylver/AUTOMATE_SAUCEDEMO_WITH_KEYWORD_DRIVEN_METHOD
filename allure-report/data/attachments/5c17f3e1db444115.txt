@@ -1,0 +1,2 @@
+Parameter contains special characters: standard_user
+Parameter contains special characters: secret_sauce
