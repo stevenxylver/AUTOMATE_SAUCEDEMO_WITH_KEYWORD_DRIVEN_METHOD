@@ -1,2 +1,0 @@
-Parameter contains special characters: performance_glitch_user
-Parameter contains special characters: secret_sauce

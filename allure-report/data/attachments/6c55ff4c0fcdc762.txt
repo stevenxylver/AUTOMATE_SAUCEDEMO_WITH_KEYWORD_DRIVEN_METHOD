@@ -1,1 +1,0 @@
-Test case executed successfully in 19.62 seconds

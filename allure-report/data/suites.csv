@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"secret_sauce","22001","TC5: error_user","chromium","Wed May 07 11:40:49 WIB 2025","passed","Wed May 07 11:41:11 WIB 2025","","excel-test.ts","",""
-"secret_sauce","28087","TC6: visual_user","chromium","Wed May 07 11:40:49 WIB 2025","passed","Wed May 07 11:41:17 WIB 2025","","excel-test.ts","",""
-"secret_sauce","22701","TC1: locked_out_user","chromium","Wed May 07 11:40:49 WIB 2025","passed","Wed May 07 11:41:12 WIB 2025","","excel-test.ts","",""
-"secret_sauce","19342","TC3: problem_user","chromium","Wed May 07 11:40:49 WIB 2025","passed","Wed May 07 11:41:08 WIB 2025","","excel-test.ts","",""
-"secret_sauce","20997","TC2: standard_user","chromium","Wed May 07 11:40:49 WIB 2025","passed","Wed May 07 11:41:10 WIB 2025","","excel-test.ts","",""
-"secret_sauce","30226","TC4: performance_glitch_user","chromium","Wed May 07 11:40:49 WIB 2025","passed","Wed May 07 11:41:19 WIB 2025","","excel-test.ts","",""
