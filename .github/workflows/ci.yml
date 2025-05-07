@@ -104,9 +104,6 @@ jobs:
       contents: write
       pages: write
       id-token: write
-    environment:
-      name: pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v3
 
@@ -127,6 +124,13 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
+        with:
+          enablement: true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./allure-report
 
       - name: Deploy to GitHub Pages
         id: deployment
