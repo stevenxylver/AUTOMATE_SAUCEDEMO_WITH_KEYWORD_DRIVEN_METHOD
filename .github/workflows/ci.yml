@@ -40,7 +40,7 @@ jobs:
 
       - name: Upload test results
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: playwright-report-${{ matrix.shardIndex }}
           path: playwright-report/
@@ -48,7 +48,7 @@ jobs:
 
       - name: Upload test videos
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: test-results-${{ matrix.shardIndex }}
           path: test-results/
@@ -71,13 +71,13 @@ jobs:
         run: npm ci
 
       - name: Download test results
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           path: playwright-report
           name: playwright-report-*
 
       - name: Download test videos
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           path: test-results
           name: test-results-*
@@ -88,7 +88,7 @@ jobs:
           allure generate playwright-report --clean
 
       - name: Upload Allure Report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-report
           path: allure-report/
@@ -111,7 +111,7 @@ jobs:
         run: npm ci
 
       - name: Download Allure Report
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: allure-report
           path: allure-report
